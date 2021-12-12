@@ -1,0 +1,27 @@
+{
+    "name": "volmaticmw5/global-helper",
+    "description": "A bunch of usefull helpers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Volmatic",
+            "email": "volmaticmw5@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "volmaticmw5\\GlobalHelper\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "volmaticmw5\\GlobalHelper\\GlobalHelperServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "laravel/framework": "^6|^7|^8"
+    }
+}
